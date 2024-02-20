@@ -1,0 +1,28 @@
+.app-container {
+  position: relative;
+  overflow: auto; /* Enable scrolling for content */
+  height: 100vh; /* Set height to fill the viewport */
+}
+
+.main__background {
+  background-color: red;
+  background: radial-gradient(#ffffff59 1%, #070a13 11%);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-size: 20px 20px;
+  animation: animateBackground 100s infinite;
+  z-index: -1;
+}
+
+@keyframes animateBackground {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 350px 350px;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}

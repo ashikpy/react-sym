@@ -1,0 +1,136 @@
+.header-wrapper {
+  position: relative;
+  height: 80px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.01);
+  outline: 1.5px solid rgba(225, 29, 72, 0.4);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.header__logo {
+  font-size: 23px;
+  margin-left: 10px;
+}
+
+.header__menu {
+  display: none;
+}
+
+.header__bars {
+  color: var(--clr-light);
+  width: var(--size-2xl);
+  height: var(--size-2xl);
+  display: block;
+}
+
+.footer__logo {
+  color: white;
+}
+
+/* // xs */
+/* // @media (min-width: 475px) {} */
+
+/* // sm */
+/* //@media (min-width: 640px) {} */
+
+/* md */
+@media (min-width: 768px) {
+  .header {
+    padding-top: 1rem;
+  }
+
+  .header__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 2em;
+  }
+
+  .header__link {
+    font-size: var(--size-xs);
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--clr-slate600);
+    letter-spacing: -0.05em;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .header__link:hover {
+    color: var(--clr-indigo);
+    text-shadow: 0px 0px 10px 4px rgba(79, 70, 229, 0.5);
+  }
+
+  .header__line {
+    border: 1px solid var(--clr-slate600);
+    padding-top: 1.5em;
+  }
+
+  .header__sun {
+    display: grid;
+    color: var(--clr-slate600);
+    width: var(--size-base);
+    height: var(--size-base);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .header__sun:hover {
+    color: var(--clr-rose);
+  }
+
+  .header__resume {
+    font-size: var(--size-xs);
+  }
+
+  .header__bars {
+    display: none;
+  }
+}
+
+@media (min-width: 890px) {
+  .header__logo {
+    font-size: 25px !important;
+  }
+
+  .header {
+    padding-top: 2rem;
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .header__link {
+    font-size: var(--size-sm);
+  }
+
+  .header__sun {
+    width: var(--size-xl);
+    height: var(--size-xl);
+  }
+
+  .header__resume {
+    font-size: var(--size-xs);
+  }
+}
+
+/* // xl */
+/* // @media (min-width: 1280px) {} */
+/* // 2xl */
+/* // @media (min-width: 1536px) {} */
