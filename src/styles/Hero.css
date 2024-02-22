@@ -7,3 +7,18 @@
   width: 95%;
   opacity: 0.4;
 }
+
+.ash__name{
+  color: rgba(225, 29, 72,0.75);
+}
+
+@media (min-width: 768px) {
+  .hero{
+    margin-top: 10rem;
+  }
+  .hr__each{
+    width:50%;
+    margin-top: 5rem;
+  }
+}
+
