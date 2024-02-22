@@ -1,6 +1,7 @@
 import "./styles/App.css";
 import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
+import Events from "./components/Events.jsx";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Header />
         <main>
           <Hero />
+          <Events />
         </main>
       </div>
     </div>

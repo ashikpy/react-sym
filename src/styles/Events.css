@@ -1,0 +1,8 @@
+.grid__containers{
+    display: grid;
+    row-gap: 1rem;
+}
+
+.margin__1rem{
+    margin-top: 1rem;
+}

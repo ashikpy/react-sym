@@ -5,9 +5,9 @@ const Hero = () => {
   return (
     <section className="hero align-center md: container flex flex-col items-center justify-center md:mt-10">
       <img
-        src="../public/logo.jpeg"
+        src="/logo.jpeg"
         alt="hello"
-        className="md:size-42 size-32 rounded-full border-4 border-rose-600 sm:m-4 sm:size-52"
+        className="w-32 rounded-full border-4 border-rose-600 sm:m-4 sm:w-40 md:mt-5 md:w-48"
       />
       <h2 className="hero__subtitle mt-2 text-base sm:mt-0 sm:text-lg xl:text-xl">
         <strong className="text-slate-300">We, Welcome You To,</strong>
@@ -30,7 +30,7 @@ const Hero = () => {
         below.
       </p>
       <button className="hero__btn btn mt-4 sm:text-base">Get Started</button>
-      <hr />
+      <hr className="hr__each " />
     </section>
   );
 };
