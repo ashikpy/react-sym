@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="hero align-center md: container flex flex-col items-center justify-center md:mt-10">
       <img
-        src="/logo.jpeg"
+        src="./logo.jpeg"
         alt="hello"
         className="w-32 rounded-full border-4 border-rose-600 sm:m-4 sm:w-40 md:mt-5 md:w-48"
       />
