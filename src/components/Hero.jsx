@@ -1,15 +1,17 @@
 import React from "react";
 import "../styles/Hero.css";
+import Logo from "./Logo";
 
 const Hero = () => {
   return (
-    <section className="hero align-center md: container flex flex-col items-center justify-center md:mt-14">
-      <img
+    <section className="hero align-center md: container flex flex-col items-center justify-center md:mt-14 lg:mt-6">
+      {/* <img
         src="./logo.jpeg"
         alt="hello"
         className="w-32 rounded-full border-4 border-rose-600 sm:m-4 sm:w-40 md:mt-5 md:w-48"
-      />
-      <h2 className="hero__subtitle mt-2 text-base sm:mt-0 sm:text-lg xl:text-xl">
+      /> */}
+      <Logo />
+      <h2 className="hero__subtitle text-base sm:text-lg xl:text-xl">
         <strong className="text-slate-300">We, Welcome You To,</strong>
       </h2>
       <h1 className="hero__title text-7xl sm:text-8xl xl:mt-1 xl:text-[8rem]">
@@ -29,7 +31,7 @@ const Hero = () => {
         </u>{" "}
         below.
       </p>
-      <button className="hero__btn btn mt-4 sm:text-base xl:mt-6">
+      <button className="hero__btn btn mt-4 sm:text-base xl:mt-7">
         Get Started
       </button>
       <hr className="hr__each" />

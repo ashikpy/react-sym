@@ -1,3 +1,7 @@
+.hero__subtitle {
+  margin-top: -1.5rem;
+}
+
 .hero__title {
   letter-spacing: -0.2rem;
 }
@@ -12,6 +16,12 @@
   color: rgba(225, 29, 72, 0.75);
 }
 
+@media (min-width: 640px) {
+  .hero__subtitle {
+    margin-top: -2rem;
+  }
+}
+
 @media (min-width: 768px) {
   .hero {
     margin-top: 10rem;
@@ -19,5 +29,11 @@
 
   .hr__each {
     width: 70%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero__subtitle {
+    margin-top: -2.5rem;
   }
 }

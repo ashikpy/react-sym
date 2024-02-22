@@ -1,0 +1,62 @@
+.logo__svg {
+  width: 200px;
+  height: 200px;
+  fill: none;
+  border-radius: 50%;
+  /* border: 3px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 9s ease-in-out;
+}
+
+.logo__svg:hover {
+  transform: rotate(360deg);
+}
+
+.actuall__logo {
+  width: 300px;
+  height: 300px;
+}
+
+.neon {
+  margin: 50px;
+  fill: none;
+  stroke: #00bfff; /* Blue neon color */
+  stroke-width: 4;
+  filter: drop-shadow(0 0 5px #00bfff) drop-shadow(0 0 10px #00bfff)
+    drop-shadow(0 0 20px #00bfff) drop-shadow(0 0 40px #00bfff);
+  animation: neon-animation 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon-animation {
+  0% {
+    filter: drop-shadow(0 0 1px #00bfff) drop-shadow(0 0 5px #00bfff)
+      drop-shadow(0 0 10px #00bfff) drop-shadow(0 0 20px #00bfff);
+  }
+  100% {
+    filter: drop-shadow(0 0 2px #00bfff) drop-shadow(0 0 10px #00bfff)
+      drop-shadow(0 0 30px #00bfff) drop-shadow(0 0 40px #00bfff);
+  }
+}
+
+@media (min-width: 640px) {
+  .logo__svg {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .logo__svg {
+    width: 310px;
+    height: 310px;
+  }
+  .actuall__logo {
+    width: 310px;
+    height: 310px;
+  }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

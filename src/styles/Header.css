@@ -133,6 +133,10 @@
 }
 
 /* // xl */
-/* // @media (min-width: 1280px) {} */
+@media (min-width: 1280px) {
+  .header {
+    margin-bottom: 0rem;
+  }
+}
 /* // 2xl */
 /* // @media (min-width: 1536px) {} */
