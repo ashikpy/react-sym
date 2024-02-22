@@ -12,7 +12,7 @@
   --clr-slate600: #475569;
   --clr-slate800: #1e293b;
   --clr-rose: rgb(225, 29, 72);
-  --clr-indigo: #4f46e5;
+  --clr-indigo: rgb(79, 70, 229);
 
   /* Sizes */
   --size-xxs: 0.5rem;
@@ -78,4 +78,22 @@ a {
 
 strong {
   color: var(--clr-rose);
+}
+
+/* For WebKit browsers */
+::-webkit-scrollbar {
+  width: 2px; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: var(--clr-dark); /* color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(225, 29, 72, 0.8);
+  transition: all 0.9s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(79, 70, 229, 0.8);
 }
