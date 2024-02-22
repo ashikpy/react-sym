@@ -18,7 +18,7 @@ const Hero = () => {
           SYM
         </span>
       </h1>
-      <p className="hero__discription leading-1 mt-1 max-w-[50ch] text-center text-sm font-medium text-slate-500 sm:text-base md:mt-2">
+      <p className="hero__discription leading-1 mt-1 max-w-[50ch] text-center text-sm font-medium text-slate-500 sm:text-base">
         We, Students and faculty of <strong>Science and Humanities</strong>{" "}
         Department, are very grateful to invite you to{" "}
         <strong className="text-indigo-600">AshSym!</strong>, a technical fest
@@ -29,7 +29,7 @@ const Hero = () => {
         </u>{" "}
         below.
       </p>
-      <button className="hero__btn btn mt-4 sm:text-base md:mt-7">Get Started</button>
+      <button className="hero__btn btn mt-4 sm:text-base">Get Started</button>
       <hr className="hr__each" />
     </section>
   );
