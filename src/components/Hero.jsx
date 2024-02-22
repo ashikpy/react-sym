@@ -4,12 +4,7 @@ import Logo from "./Logo";
 
 const Hero = () => {
   return (
-    <section className="hero align-center md: container flex flex-col items-center justify-center md:mt-14 lg:mt-6">
-      {/* <img
-        src="./logo.jpeg"
-        alt="hello"
-        className="w-32 rounded-full border-4 border-rose-600 sm:m-4 sm:w-40 md:mt-5 md:w-48"
-      /> */}
+    <section className="hero align-center container flex flex-col items-center justify-center md:mt-2 lg:mt-9">
       <Logo />
       <h2 className="hero__subtitle text-base sm:text-lg xl:text-xl">
         <strong className="text-slate-300">We, Welcome You To,</strong>
