@@ -6,12 +6,12 @@ const Hero = () => {
   return (
     <section className="hero align-center container flex flex-col items-center justify-center md:mt-2 lg:mt-9">
       <Logo />
-      <h2 className="hero__subtitle text-base sm:text-lg xl:text-xl">
+      <h2 className="hero__subtitle text-base sm:text-lg xl:text-xl 2xl:mt-[-1rem]">
         <strong className="text-slate-300">We, Welcome You To,</strong>
       </h2>
-      <h1 className="hero__title text-7xl sm:text-8xl xl:mt-1 xl:text-[8rem]">
+      <h1 className="hero__title text-7xl sm:text-8xl xl:mt-1 xl:text-[8rem] 2xl:text-[9rem]">
         <strong className="ash__name">ASH</strong>
-        <span className="text-7xl font-black text-indigo-600 sm:text-8xl xl:text-[8rem]">
+        <span className="text-7xl font-black text-indigo-600 sm:text-8xl xl:text-[8rem] 2xl:text-[9rem]">
           SYM
         </span>
       </h1>
