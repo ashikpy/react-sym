@@ -10,7 +10,11 @@ function Events() {
       <h2 className="h2__child text-2xl">Technical Events</h2>
       <div className="flex__pairs">
         <div className="grid__containers">
-          <img src="./logo.jpeg" alt="logo-for-" className="w-80" />
+          <img
+            src="./Debate.png"
+            alt="logo-for-debate"
+            className="logo__debate w-80"
+          />
           <div className="h3__container">
             <h3 className="mb-2 text-xl">Debate</h3>
           </div>
@@ -25,9 +29,9 @@ function Events() {
       <div className="flex__pairs">
         <div className="grid__containers grid__container__last">
           <img
-            src="./logo.jpeg"
-            alt="logo-for-"
-            className="img__container__last w-80"
+            src="./speech_square.png"
+            alt="logo-for-speech"
+            className="logo__speech img__container__last w-80"
           />
           <div className="h3__container h3__container__last">
             <h3 className="mb-2 text-xl">Extempore Speech</h3>
@@ -37,7 +41,7 @@ function Events() {
       <h2 className="h2__child text-3xl">Non - Technical Events</h2>
       <div className="flex__pairs">
         <div className="grid__containers">
-          <img src="./logo.jpeg" alt="logo-for-" className="w-80" />
+          <img src="./mind_maze.png" alt="logo-for-" className="w-80" />
           <div className="h3__container">
             <h3 className="mb-2 text-xl">Mind Maze</h3>
           </div>
@@ -51,13 +55,13 @@ function Events() {
       </div>
       <div className="flex__pairs">
         <div className="grid__containers">
-          <img src="./logo.jpeg" alt="logo-for-" className="w-80" />
+          <img src="./treasure_hunt.png" alt="logo-for-" className="w-80" />
           <div className="h3__container">
             <h3 className="mb-2 text-xl">Treasure Hunt</h3>
           </div>
         </div>
         <div className="grid__containers">
-          <img src="./logo.jpeg" alt="logo-for-" className="w-80" />
+          <img src="./Puzzle.png" alt="logo-for-" className="w-80" />
           <div className="h3__container">
             <h3 className="mb-2 text-xl">Puzzle Competition</h3>
           </div>
