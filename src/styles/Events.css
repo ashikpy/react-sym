@@ -5,8 +5,10 @@
 .grid__containers {
   display: grid;
   /* row-gap: 1rem; */
-  grid-template-columns: repeat(4, 75px);
-  grid-template-rows: repeat(5, 75px);
+  /* grid-template-columns: repeat(4, 75px); */
+  /* grid-template-rows: repeat(5, 75px); */
+  grid-template-columns: repeat(4, 65px);
+  grid-template-rows: repeat(5, 65px);
   align-items: center;
   border-radius: 8px;
   border: 2px white solid;
@@ -68,6 +70,20 @@
 @media (min-width: 768px) {
   .flex__pairs {
     flex-direction: row;
+  }
+  .grid__containers {
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: repeat(5, 75px);
+  }
+  .grid__container__last {
+    grid-template-columns: repeat(8, 80px);
+    grid-template-rows: repeat(5, 80px);
+  }
+  .h3__container__last {
+    grid-column: 1 / 9;
+  }
+  .img__container__last {
+    grid-column: 1 / 9 !important;
   }
 }
 

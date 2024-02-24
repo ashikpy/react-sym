@@ -48,7 +48,7 @@ function Header() {
       </div>
       <header className="header">
         <h1 className="header__logo">
-          <span className="tech__text text-slate-300">Ash</span>
+          <span className="tech__text">Ash</span>
           <span className="Sym text-slate-300">Sym</span> <strong>2k</strong>
           <strong>24</strong>
         </h1>

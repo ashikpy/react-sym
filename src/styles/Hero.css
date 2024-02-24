@@ -13,7 +13,8 @@
 }
 
 .ash__name {
-  color: rgba(225, 29, 72, 0.75);
+  /* color: rgba(225, 29, 72, 0.9); */
+  color: rgba(225, 64, 110, 0.9);
 }
 
 @media (min-width: 640px) {

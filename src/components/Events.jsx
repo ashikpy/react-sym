@@ -23,9 +23,13 @@ function Events() {
         </div>
       </div>
       <div className="flex__pairs">
-        <div className="grid__containers">
-          <img src="./logo.jpeg" alt="logo-for-" className="w-80" />
-          <div className="h3__container">
+        <div className="grid__containers grid__container__last">
+          <img
+            src="./logo.jpeg"
+            alt="logo-for-"
+            className="img__container__last w-80"
+          />
+          <div className="h3__container h3__container__last">
             <h3 className="mb-2 text-xl">Extempore Speech</h3>
           </div>
         </div>
