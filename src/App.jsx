@@ -2,6 +2,7 @@ import "./styles/App.css";
 import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
 import Events from "./components/Events.jsx";
+import About from "./components/About.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <main>
           <Hero />
           <Events />
+          <About />
         </main>
       </div>
     </div>

@@ -1,0 +1,21 @@
+.about__text {
+  background: #4f46e5;
+  background: linear-gradient(to bottom, rgb(79, 70, 229) 60%, #000000 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* -webkit-text-stroke: 1px rgb(7, 1, 123);  */
+}
+
+.about__container {
+  margin-top: 1.75rem;
+}
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
