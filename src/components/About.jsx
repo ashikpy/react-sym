@@ -7,6 +7,7 @@ function About() {
       <h1>
         <strong className="about__text text-5xl">About</strong>
       </h1>
+      <p>Location</p>
     </div>
   );
 }
