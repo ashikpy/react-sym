@@ -11,9 +11,9 @@ function About() {
       </p>
       <div className="parent__grid">
         <div className="grid__containers__about grid__containers"></div>
-        <div className="subchild__container sah__container">
+        <div className="grid__containers subchild__container sah__container">
           <p className="SAH__text text-xl">Science And Humanities</p>
-          <div className="grid__containers__about grid__containers"></div>
+          <div className="grid__containers__about "></div>
         </div>
         <div className="grid__containers subchild__container location__container">
           <p className="location__text text-xl md:text-2xl ">Location</p>
