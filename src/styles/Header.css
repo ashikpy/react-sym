@@ -1,6 +1,15 @@
-.header-wrapper {
+.header__wrapper {
   position: relative;
   height: 4.5rem;
+}
+
+.mobile-nav__menu > a {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.mobile-nav__menu > a:active {
+  color: var(--clr-indigo);
 }
 
 .header {
@@ -24,6 +33,7 @@
 .header__logo {
   font-size: 23px;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .header__menu {

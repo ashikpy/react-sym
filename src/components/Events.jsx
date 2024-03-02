@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "../styles/Events.css";
 
 function Events() {
@@ -19,7 +19,10 @@ function Events() {
   }
 
   return (
-    <div className="events__container flex flex-col items-center justify-center text-center">
+    <div
+      className="events__container flex flex-col items-center justify-center text-center"
+      id="events"
+    >
       <h1 className="in__frames text-5xl">
         <strong>In Frames</strong>
       </h1>

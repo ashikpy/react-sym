@@ -1,10 +1,12 @@
-import React from "react";
 import "../styles/Hero.css";
 import Logo from "./Logo";
-
+//
 const Hero = () => {
   return (
-    <section className="hero align-center container flex flex-col items-center justify-center md:mt-2 lg:mt-9">
+    <section
+      className="hero align-center container flex flex-col items-center justify-center md:mt-2 lg:mt-9"
+      id="hero"
+    >
       <Logo />
       <h2 className="hero__subtitle text-base sm:text-lg xl:text-xl 2xl:mt-[-1rem]">
         <strong className="text-slate-300">We, Welcome You To,</strong>

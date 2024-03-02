@@ -10,7 +10,7 @@ function App() {
       <div className="main__background"></div>
       <div className="content">
         <Header />
-        <main>
+        <main id="home">
           <Hero />
           <Events />
           <About />
