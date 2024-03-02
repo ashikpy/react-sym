@@ -86,6 +86,7 @@ function Events() {
           </div>
         </div>
       </div>
+      <hr className="hr__each" />
     </div>
   );
 }

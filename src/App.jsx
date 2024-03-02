@@ -3,6 +3,7 @@ import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
 import Events from "./components/Events.jsx";
 import About from "./components/About.jsx";
+import Contact from "./components/Contact.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Hero />
           <Events />
           <About />
+          <Contact />
         </main>
       </div>
     </div>
