@@ -35,6 +35,6 @@
 
 @media (min-width: 1024px) {
   .hero__subtitle {
-    margin-top: -2.5rem;
+    margin-top: -1.5rem !important;
   }
 }

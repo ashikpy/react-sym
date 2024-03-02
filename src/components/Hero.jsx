@@ -8,7 +8,7 @@ const Hero = () => {
       id="hero"
     >
       <Logo />
-      <h2 className="hero__subtitle text-base sm:text-lg xl:text-xl 2xl:mt-[-1rem]">
+      <h2 className="hero__subtitle mt-[-0.7rem] text-base sm:text-lg xl:text-xl">
         <strong className="text-slate-300">We, Welcome You To,</strong>
       </h2>
       <h1 className="hero__title text-7xl sm:text-8xl xl:mt-1 xl:text-[8rem] 2xl:text-[9rem]">

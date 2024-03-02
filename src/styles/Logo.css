@@ -8,10 +8,19 @@
   justify-content: center;
   align-items: center;
   transition: all 9s ease-in-out;
+  animation: rotateAnimation 18s infinite;
 }
 
-.logo__svg:hover {
-  transform: rotate(360deg);
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100 {
+    transform: rotate(0deg);
+  }
 }
 
 .actuall__logo {
