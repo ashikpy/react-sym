@@ -4,7 +4,7 @@ import Logo from "./Logo";
 const Hero = () => {
   return (
     <section
-      className="hero align-center container flex flex-col items-center justify-center md:mt-2 lg:mt-9"
+      className="hero align-center container flex flex-col items-center justify-center md:mt-2"
       id="hero"
     >
       <Logo />
