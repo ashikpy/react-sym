@@ -94,7 +94,3 @@ strong {
 ::-webkit-scrollbar-thumb:hover {
   background-color: rgba(79, 70, 229, 0.8);
 }
-
-html {
-  scroll-behavior: smooth;
-}

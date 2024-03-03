@@ -10,23 +10,23 @@ function Header() {
   };
 
   const goToHome = () => {
-    window.location.href = "/";
+    window.location.href = "#home";
   };
 
   return (
-    <div className={`header__wrapper ${isOpen ? "mobile-nav-open" : ""}`}>
+    <div className={`header__wrapper`}>
       <div
         className={`moblie-nav__container ${isOpen ? "mobile-nav__toggle" : ""}`}
       >
         <ul className="mobile-nav__menu">
-          <a href="">
+          <a href="#events">
             <li>Events</li>
           </a>
-          <a href="">
-            <li>Contact</li>
-          </a>
-          <a href="">
+          <a href="#about">
             <li>About</li>
+          </a>
+          <a href="#">
+            <li>Contact</li>
           </a>
           <li className="mobile-nav__line"></li>
           <li>

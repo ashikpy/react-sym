@@ -11,7 +11,7 @@
   width: 100vw;
   z-index: 3;
   overflow-y: hidden;
-  visibility: hidden;
+  display: none;
 }
 
 .mobile-nav__menu {
@@ -47,7 +47,7 @@
 }
 
 .mobile-nav__toggle {
-  visibility: visible;
+  display: flex;
 }
 
 .moblie-nav__close {
