@@ -1,8 +1,62 @@
-.contact__container {
+.contact__container__main {
   margin-top: 1.75rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  gap: 2.5rem;
+}
+
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 8px;
+  width: 20rem;
+  height: 12.55rem;
+  gap: 1rem;
+}
+
+.phone__link {
+  display: flex;
+  border: 2px solid var(--clr-light);
+  background-color: rgba(225, 29, 72, 0.7);
+  padding: 7px;
+  border-radius: 7px;
+  color: white;
+}
+
+.link__svg {
+  width: 0.9rem;
+  height: 1.5rem;
+  margin-left: 5px;
+}
+
+.faculty__container,
+.student__conatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.des__text {
+  font-size: var(--size-sm);
+  color: var(--clr-slate400);
+  font-weight: 100;
+}
+
+.contact__container > p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0rem;
 }
