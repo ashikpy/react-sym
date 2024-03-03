@@ -66,7 +66,7 @@ function Events() {
           </div>
         </div>
         <div className="grid__containers">
-          <img src="./logo.jpeg" alt="logo-for-" className="w-80" />
+          <img src="./poster.png" alt="logo-for-" className="w-80" />
           <div className="h3__container">
             <h3 className="mb-2 text-xl">Poster Making</h3>
           </div>
