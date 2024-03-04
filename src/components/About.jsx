@@ -2,9 +2,9 @@ import "../styles/About.css";
 
 function About() {
   return (
-    <div className="about__container" id="about">
+    <div className="about__container reveal" id="about">
       <h1>
-        <strong className="about__text text-5xl">Venue</strong>
+        <strong className="about__text  text-5xl">Venue</strong>
       </h1>
       <p className="h1__child reveal-2 m-auto my-[1rem] max-w-[24ch] text-2xl md:max-w-[100ch]">
         Amrita College of Engineering And Technology
