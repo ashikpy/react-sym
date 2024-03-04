@@ -30,11 +30,12 @@ function ScrollAnimation() {
 
         if (revealTop < windowHeight - revealPoint) {
           elements[i].classList.add(activeClass);
+          setTimeout(() => {
+            elements[i].classList.add("new__time");
+          }, 500);
           if (className === ".reveal-events") {
             scrollDownSvg.classList.add("Scroll__container__hide");
           }
-        } else {
-          elements[i].classList.remove(activeClass);
         }
       }
     });

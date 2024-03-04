@@ -91,3 +91,7 @@
   transform: rotate3d(0, 1, 0, 0deg);
   opacity: 1;
 }
+
+.new__time {
+  transition: all 0.23s ease-in-out !important;
+}
