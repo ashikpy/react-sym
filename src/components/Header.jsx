@@ -10,7 +10,7 @@ function Header() {
   };
 
   const goToHome = () => {
-    window.location.href = "#home";
+    window.location.href = "#root";
   };
 
   return (
@@ -19,13 +19,13 @@ function Header() {
         className={`moblie-nav__container ${isOpen ? "mobile-nav__toggle" : ""}`}
       >
         <ul className="mobile-nav__menu">
-          <a href="#events">
+          <a href="#events" onClick={handleClick}>
             <li>Events</li>
           </a>
-          <a href="#about">
-            <li>About</li>
+          <a href="#about" onClick={handleClick}>
+            <li>Venue</li>
           </a>
-          <a href="#">
+          <a href="#contact" onClick={handleClick}>
             <li>Contact</li>
           </a>
           <li className="mobile-nav__line"></li>

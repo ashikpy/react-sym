@@ -42,6 +42,7 @@ body {
   font-family: "General Sans", sans-serif;
   background-color: var(--clr-dark);
   color: var(--clr-light);
+  overflow-x: hidden;
 }
 
 span {

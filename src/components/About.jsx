@@ -23,7 +23,11 @@ function About() {
           ></iframe>
         </div>
       </div>
-      <a href="https://maps.app.goo.gl/4KfPRrBawJnwZAASA" className="btn mt-8 ">
+      <a
+        href="https://maps.app.goo.gl/4KfPRrBawJnwZAASA"
+        className="btn mt-8"
+        id="contact"
+      >
         Google Maps Location &nbsp; 🔗
       </a>
       <hr className="hr__each" />

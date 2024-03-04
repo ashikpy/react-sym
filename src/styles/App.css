@@ -1,9 +1,3 @@
-.app-container {
-  position: relative;
-  overflow: auto; /* Enable scrolling for content */
-  height: 100vh; /* Set height to fill the viewport */
-}
-
 .main__background {
   background-color: red;
   background: radial-gradient(#ffffff59 1%, #070a13 11%);

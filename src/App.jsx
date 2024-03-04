@@ -8,7 +8,7 @@ import Cofetti from "./components/Cofetti.jsx";
 
 function App() {
   return (
-    <div className="app-container">
+    <div>
       <Cofetti />
       <div className="main__background"></div>
       <div className="content">
