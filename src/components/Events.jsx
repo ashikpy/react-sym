@@ -46,7 +46,7 @@ function Events() {
         </div>
       </div>
       <div className="flex__single">
-        <div className="grid__containers grid__container__last reveal-2">
+        <div className="grid__containers grid__container__last reveal">
           <img
             src={handleSwitch()}
             alt="logo-for-speech"

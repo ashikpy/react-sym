@@ -43,7 +43,6 @@
 .reveal.active,
 .reveal-2.active-2,
 .reveal-3.active-3,
-.reveal-4.active-4,
 .reveal-5.active-5,
 .reveal-x.active-x {
   transform: translateY(0px);
@@ -52,5 +51,10 @@
 
 .reveal-7.active-7 {
   transform: scale(1);
+  opacity: 1;
+}
+
+.reveal-4.active-4 {
+  transform: translateX(0px);
   opacity: 1;
 }
