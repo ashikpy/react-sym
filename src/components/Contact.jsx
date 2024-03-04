@@ -26,7 +26,7 @@ function Contact() {
         </div>
         <div className="student__conatiner">
           <p className="h1__child m-auto max-w-[24ch] text-2xl md:text-[1.7rem]">
-            Students Coordinator
+            Student Coordinators
           </p>
           <div className="contact__container grid__containers">
             <p className="text-[1.2rem] md:text-2xl">
