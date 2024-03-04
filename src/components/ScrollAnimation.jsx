@@ -79,19 +79,6 @@ function ScrollAnimation() {
       }
     }
 
-    let reveals6 = document.querySelectorAll(".reveal-x");
-    for (let i = 0; i < reveals6.length; i++) {
-      let windowHeight = window.innerHeight;
-      let revealTop = reveals6[i].getBoundingClientRect().top;
-      let revealPoint = -400;
-
-      if (revealTop < windowHeight - revealPoint) {
-        reveals6[i].classList.add("active-x");
-      } else {
-        reveals6[i].classList.remove("active-x");
-      }
-    }
-
     let reveals7 = document.querySelectorAll(".reveal-7");
     for (let i = 0; i < reveals7.length; i++) {
       let windowHeight = window.innerHeight;
