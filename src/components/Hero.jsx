@@ -31,7 +31,9 @@ const Hero = () => {
       <button className="hero__btn btn mt-4 sm:text-base xl:mt-7">
         Get Started
       </button>
-      <hr className="hr__each" />
+      <div className="hr__container reveal">
+        <hr className="hr__each" />
+      </div>
     </section>
   );
 };

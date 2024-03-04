@@ -20,15 +20,15 @@ function Events() {
 
   return (
     <div
-      className="events__container flex flex-col items-center justify-center text-center"
+      className="events__container reveal flex flex-col items-center justify-center text-center"
       id="events"
     >
-      <h1 className="in__frames text-5xl">
+      <h1 className="in__frames  text-5xl">
         <strong>In Frames</strong>
       </h1>
-      <h2 className="h2__child text-2xl">Technical Events</h2>
+      <h2 className="h2__child reveal-2 text-2xl">Technical Events</h2>
       <div className="flex__pairs">
-        <div className="grid__containers">
+        <div className="grid__containers reveal-7">
           <img
             src="./Debate.png"
             alt="logo-for-debate"
@@ -38,7 +38,7 @@ function Events() {
             <h3 className="mb-2 text-xl">Debate</h3>
           </div>
         </div>
-        <div className="grid__containers">
+        <div className="grid__containers reveal-7">
           <img src="./skill1.png" alt="logo-for-" className="w-80" />
           <div className="h3__container">
             <h3 className="mb-2 text-xl">Idea Presentation</h3>
@@ -46,7 +46,7 @@ function Events() {
         </div>
       </div>
       <div className="flex__single">
-        <div className="grid__containers grid__container__last">
+        <div className="grid__containers grid__container__last reveal-2">
           <img
             src={handleSwitch()}
             alt="logo-for-speech"

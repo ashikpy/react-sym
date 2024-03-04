@@ -6,11 +6,13 @@ import About from "./components/About.jsx";
 import Contact from "./components/Contact.jsx";
 import Cofetti from "./components/Cofetti.jsx";
 import Footer from "./components/Footer.jsx";
+import ScrollAnimation from "./components/ScrollAnimation.jsx";
 
 function App() {
   return (
     <div>
       <Cofetti />
+      <ScrollAnimation />
       <div className="main__background"></div>
       <div className="content">
         <Header />

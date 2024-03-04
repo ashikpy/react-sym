@@ -12,6 +12,15 @@
   opacity: 0.4;
 }
 
+.hr__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
 .ash__name {
   /* color: rgba(225, 29, 72, 0.9); */
   color: rgba(225, 64, 110, 0.9);
