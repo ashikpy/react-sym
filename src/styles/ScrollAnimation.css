@@ -1,5 +1,6 @@
 .reveal,
-.reveal-x {
+.reveal-x,
+.reveal-events {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
@@ -61,6 +62,7 @@
 }
 
 .reveal.active,
+.reveal-events.active-events,
 .reveal-2.active-2,
 .reveal-3.active-3,
 .reveal-x.active-x {

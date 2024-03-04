@@ -1,8 +1,6 @@
 import React from "react";
 import "../styles/Footer.css";
 
-console.log("hello");
-
 function Footer() {
   return (
     <div className="footer__section reveal-x">

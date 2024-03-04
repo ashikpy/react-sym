@@ -1,6 +1,6 @@
 import "../styles/Hero.css";
 import Logo from "./Logo";
-//
+
 const Hero = () => {
   return (
     <section

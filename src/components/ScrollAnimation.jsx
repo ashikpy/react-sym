@@ -2,6 +2,18 @@ import "../styles/ScrollAnimation.css";
 
 function ScrollAnimation() {
   window.addEventListener("scroll", function () {
+    let revealsEvents = document.querySelectorAll(".reveal-events");
+    let scrollDownSvg = document.querySelector(".Scroll__container");
+    for (let i = 0; i < revealsEvents.length; i++) {
+      let windowHeight = window.innerHeight;
+      let revealTop = revealsEvents[i].getBoundingClientRect().top;
+      let revealPoint = 50;
+      if (revealTop < windowHeight - revealPoint) {
+        revealsEvents[i].classList.add("active-events");
+        scrollDownSvg.classList.add("Scroll__container__hide");
+      }
+    }
+
     let reveals = document.querySelectorAll(".reveal");
     for (let i = 0; i < reveals.length; i++) {
       let windowHeight = window.innerHeight;

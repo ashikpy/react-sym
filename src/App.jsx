@@ -7,6 +7,7 @@ import Contact from "./components/Contact.jsx";
 import Cofetti from "./components/Cofetti.jsx";
 import Footer from "./components/Footer.jsx";
 import ScrollAnimation from "./components/ScrollAnimation.jsx";
+import ScrollDown from "./components/ScrollDown.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Header />
         <main id="home">
           <Hero />
+          <ScrollDown />
           <Events />
           <About />
           <Contact />

@@ -20,10 +20,10 @@ function Events() {
 
   return (
     <div
-      className="events__container reveal flex flex-col items-center justify-center text-center"
+      className="events__container reveal-events flex flex-col items-center justify-center text-center"
       id="events"
     >
-      <h1 className="in__frames  text-5xl">
+      <h1 className="in__frames text-5xl">
         <strong>In Frames</strong>
       </h1>
       <h2 className="h2__child reveal-2 text-2xl">Technical Events</h2>

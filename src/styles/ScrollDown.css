@@ -1,0 +1,68 @@
+.Scroll__container {
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -1rem;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+:root {
+  --dark-color: #635bff;
+  --light-color: #80e9ff;
+}
+
+.scroll__svg {
+  opacity: 0.8;
+
+  cursor: pointer;
+  transform: rotate(90deg);
+}
+
+#darkGroup {
+  fill: var(--dark-color);
+}
+#lightGroup {
+  fill: var(--light-color);
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(20%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(40%);
+    opacity: 0;
+  }
+}
+
+@keyframes slideIn {
+  0%,
+  50% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+#dark1,
+#light1 {
+  animation: slide 2s infinite;
+}
+
+#dark2 {
+  animation: slideIn 2s 1s infinite;
+}
+
+.Scroll__container__hide {
+  opacity: 0;
+}
