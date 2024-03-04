@@ -7,7 +7,7 @@ function About() {
         <strong className="about__text text-5xl">Venue</strong>
       </h1>
       <p className="h1__child m-auto my-[1rem] max-w-[24ch] text-2xl md:max-w-[100ch]">
-        Amrita College of Enginerring And Technology
+        Amrita College of Engineering And Technology
       </p>
       <div className="parent__grid">
         <div className="grid__containers__about grid__containers"></div>
