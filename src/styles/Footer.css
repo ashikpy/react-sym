@@ -1,0 +1,14 @@
+.footer__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 3rem;
+}
+
+.Ashik__D {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}

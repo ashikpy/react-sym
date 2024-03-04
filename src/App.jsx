@@ -5,6 +5,7 @@ import Events from "./components/Events.jsx";
 import About from "./components/About.jsx";
 import Contact from "./components/Contact.jsx";
 import Cofetti from "./components/Cofetti.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           <About />
           <Contact />
         </main>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </div>
   );

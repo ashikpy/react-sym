@@ -94,3 +94,15 @@
   text-align: center;
   gap: 0rem;
 }
+
+@media (min-width: 768px) {
+  .contact__container {
+    width: 30rem;
+    height: 15rem;
+  }
+
+  .contact__container::before {
+    width: 35rem;
+    height: 15rem;
+  }
+}
