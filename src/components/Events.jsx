@@ -46,7 +46,7 @@ function Events() {
         </div>
       </div>
       <div className="flex__single">
-        <div className="grid__containers grid__container__last reveal">
+        <div className="grid__containers grid__container__last reveal-10">
           <img
             src={handleSwitch()}
             alt="logo-for-speech"
@@ -57,15 +57,15 @@ function Events() {
           </div>
         </div>
       </div>
-      <h2 className="h2__child text-3xl">Non - Technical Events</h2>
+      <h2 className="h2__child reveal text-3xl">Non - Technical Events</h2>
       <div className="flex__pairs">
-        <div className="grid__containers">
+        <div className="grid__containers reveal-8">
           <img src="./mind_maze.png" alt="logo-for-" className="w-80" />
           <div className="h3__container">
             <h3 className="mb-2 text-xl">Mind Maze</h3>
           </div>
         </div>
-        <div className="grid__containers">
+        <div className="grid__containers reveal-9">
           <img src="./poster.png" alt="logo-for-" className="w-80" />
           <div className="h3__container">
             <h3 className="mb-2 text-xl">Poster Making</h3>
@@ -73,13 +73,13 @@ function Events() {
         </div>
       </div>
       <div className="flex__pairs">
-        <div className="grid__containers">
+        <div className="grid__containers reveal-8">
           <img src="./treasure_hunt.png" alt="logo-for-" className="w-80" />
           <div className="h3__container">
             <h3 className="mb-2 text-xl">Treasure Hunt</h3>
           </div>
         </div>
-        <div className="grid__containers">
+        <div className="grid__containers reveal-9">
           <img src="./Puzzle.png" alt="logo-for-" className="w-80" />
           <div className="h3__container">
             <h3 className="mb-2 text-xl">Puzzle Competition</h3>

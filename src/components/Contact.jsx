@@ -8,7 +8,7 @@ function Contact() {
         <strong className="about__text text-5xl">Contact</strong>
       </h1>
       <div className="contact__container__main">
-        <div className="faculty__container">
+        <div className="faculty__container reveal-4">
           <p className="h1__child m-auto max-w-[24ch] text-2xl md:text-[1.7rem]">
             Faculty Coordinator
           </p>
@@ -24,7 +24,7 @@ function Contact() {
             </a>
           </div>
         </div>
-        <div className="student__conatiner ">
+        <div className="student__conatiner reveal-5">
           <p className="h1__child  m-auto max-w-[24ch] text-2xl md:text-[1.7rem]">
             Student Coordinators
           </p>
@@ -39,7 +39,7 @@ function Contact() {
               <FaExternalLinkAlt className="link__svg" />
             </a>
           </div>
-          <div className="contact__container grid__containers">
+          <div className="contact__container grid__containers reveal-4">
             <p className="text-[1.2rem] md:text-2xl">
               Mr. G. J. Mithran
               <br />

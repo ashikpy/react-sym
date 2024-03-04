@@ -92,6 +92,45 @@ function ScrollAnimation() {
         reveals7[i].classList.remove("active-7");
       }
     }
+
+    let reveals8 = document.querySelectorAll(".reveal-8");
+    for (let i = 0; i < reveals8.length; i++) {
+      let windowHeight = window.innerHeight;
+      let revealTop = reveals8[i].getBoundingClientRect().top;
+      let revealPoint = -10;
+
+      if (revealTop < windowHeight - revealPoint) {
+        reveals8[i].classList.add("active-8");
+      } else {
+        reveals8[i].classList.remove("active-8");
+      }
+    }
+
+    let reveals9 = document.querySelectorAll(".reveal-9");
+    for (let i = 0; i < reveals9.length; i++) {
+      let windowHeight = window.innerHeight;
+      let revealTop = reveals9[i].getBoundingClientRect().top;
+      let revealPoint = -10;
+
+      if (revealTop < windowHeight - revealPoint) {
+        reveals9[i].classList.add("active-9");
+      } else {
+        reveals9[i].classList.remove("active-9");
+      }
+    }
+
+    let reveals10 = document.querySelectorAll(".reveal-10");
+    for (let i = 0; i < reveals10.length; i++) {
+      let windowHeight = window.innerHeight;
+      let revealTop = reveals10[i].getBoundingClientRect().top;
+      let revealPoint = -10;
+
+      if (revealTop < windowHeight - revealPoint) {
+        reveals10[i].classList.add("active-10");
+      } else {
+        reveals10[i].classList.remove("active-10");
+      }
+    }
   });
 }
 
