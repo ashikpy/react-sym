@@ -78,13 +78,12 @@ strong {
   color: var(--clr-rose);
 }
 
-/* For WebKit browsers */
 ::-webkit-scrollbar {
-  width: 2px; /* width of the scrollbar */
+  width: 2px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--clr-dark); /* color of the track */
+  background: var(--clr-dark);
 }
 
 ::-webkit-scrollbar-thumb {
