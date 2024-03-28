@@ -9,6 +9,10 @@ function Header() {
     setIsOpen(!isOpen);
   };
 
+  const handleClickRedirect = () => {
+    window.open("https://forms.gle/i3GRDqSDVspmQPxu6");
+  };
+
   const goToHome = () => {
     window.location.href = "#root";
   };
@@ -30,7 +34,9 @@ function Header() {
           </a>
           <li className="mobile-nav__line"></li>
           <li>
-            <button className="mobile-nav__btn">Register</button>
+            <button className="mobile-nav__btn" onClick={handleClickRedirect}>
+              Register
+            </button>
           </li>
           <li>
             <button
@@ -80,7 +86,10 @@ function Header() {
             </li>
             <li className="header__line"></li>
             <li>
-              <a className="header__resume btn" href="#">
+              <a
+                className="header__resume btn"
+                href="https://forms.gle/i3GRDqSDVspmQPxu6"
+              >
                 Register
               </a>
             </li>

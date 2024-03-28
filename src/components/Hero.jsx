@@ -2,6 +2,10 @@ import "../styles/Hero.css";
 import Logo from "./Logo";
 
 const Hero = () => {
+  const handleClick = () => {
+    window.open("https://forms.gle/i3GRDqSDVspmQPxu6");
+  };
+
   return (
     <section
       className="hero align-center container flex flex-col items-center justify-center md:mt-2"
@@ -28,7 +32,10 @@ const Hero = () => {
         </u>{" "}
         below.
       </p>
-      <button className="hero__btn btn mt-4 sm:text-base xl:mt-7">
+      <button
+        className="hero__btn btn mt-4 sm:text-base xl:mt-7"
+        onClick={handleClick}
+      >
         Get Started
       </button>
       <div className="hr__container reveal">
