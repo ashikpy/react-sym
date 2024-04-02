@@ -1,10 +1,6 @@
 import React from "react";
 
 function Debate() {
-  const handleClick = () => {
-    window.open("");
-  };
-
   return (
     <div>
       <div className="main__background ">
@@ -17,16 +13,7 @@ function Debate() {
           </h3>
         </header>
         <hr />
-        <section>
-          <ul className="">
-            <li></li>
-          </ul>
-          <div className="btn__container">
-            <button className="events__btn btn" onClick={handleClick}>
-              Click Me!
-            </button>
-          </div>
-        </section>
+        <section></section>
       </div>
     </div>
   );
