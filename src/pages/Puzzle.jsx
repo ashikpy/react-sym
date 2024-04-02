@@ -18,6 +18,26 @@ function Puzzle() {
         </header>
         <hr />
         <section>
+          <h1>About:</h1>
+          <p>
+            The competition aims to test and develop participants'
+            problem-solving abilities across different types of puzzles,
+            including logic puzzles, word puzzles, mathematical puzzles and
+            spatial puzzles. Students are encouraged to think critically and
+            creatively to find solutions to complex or unfamiliar problems
+            presented in the puzzles. It promotes intellectual engagement and
+            provides a platform for participants to engage with stimulating and
+            challenging problems in a fun and competitive environment.
+          </p>
+          <h1>Key Areas:</h1>
+          <ul>
+            <li>General Knowledge</li>
+            <li>English</li>
+            <li>Aptitude</li>
+            <li>Logical Reasoning</li>
+            <li>Engineering Subject Areas (Major)</li>
+            <li>Venue: C – 101 S & H Block</li>
+          </ul>
           <h1 className="stages">Step 1: Qualifying Round</h1>
           <ul className="">
             <li>
@@ -61,14 +81,14 @@ function Puzzle() {
             </li>
             <li>Time allotted for this level is 10 minutes</li>
           </ul>
-          <h1 className="stages ">Stage 3: Word Puzzle Round</h1>
+          <h1 className="stages">Stage 3: Word Puzzle Round</h1>
           <ul>
             <li>Each team gets one minute to answer.</li>{" "}
             <li>Wrong answers do not result in negative marks.</li>{" "}
             <li>
               Marks will be calculated by the maximum number of correct answers
               given by each team.
-            </li>{" "}
+            </li>
             <li>
               In the event of a tie, a collage image will be displayed, and the
               team that gives the correct answer will be selected for the next
