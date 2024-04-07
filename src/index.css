@@ -148,6 +148,7 @@ body {
   background-size: 20px 20px;
   animation: animateBackground 220s infinite;
   z-index: -1;
+  background-attachment: fixed;
 }
 
 @keyframes animateBackground {
