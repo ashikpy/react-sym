@@ -50,6 +50,28 @@ function Contact() {
               <FaExternalLinkAlt className="link__svg" />
             </a>
           </div>
+          <div className="contact__container grid__containers reveal-5">
+            <p className="text-[1.2rem] md:text-2xl">
+              Mr. D. Ashik
+              <br />
+              <span className="des__text md:text-base">I B. Tech. AI & DS</span>
+            </p>
+            <a className="phone__link" href="tel:+919486393055">
+              +91 94863 93055
+              <FaExternalLinkAlt className="link__svg" />
+            </a>
+          </div>
+          <div className="contact__container grid__containers reveal-4">
+            <p className="text-[1.2rem] md:text-2xl">
+              Ms. Siva Ransani
+              <br />
+              <span className="des__text md:text-base">I B. E. ECE</span>
+            </p>
+            <a className="phone__link" href="tel:+919342434169">
+              +91 93424 34169
+              <FaExternalLinkAlt className="link__svg" />
+            </a>
+          </div>
         </div>
         <hr className="hr__each" />
       </div>
