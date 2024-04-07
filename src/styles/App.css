@@ -2,7 +2,6 @@
   background-color: red;
   background: radial-gradient(#ffffff59 1%, #070a13 11%);
   width: 100vw;
-
   /* position: fixed; */
   background-size: 20px 20px;
   animation: animateBackground 100s infinite;

@@ -140,3 +140,28 @@ strong {
 .main__background > section {
   padding: 0 25px;
 }
+
+body {
+  background-color: red;
+  background: radial-gradient(#ffffff59 1%, #070a13 11%);
+  width: 100vw;
+  background-size: 20px 20px;
+  animation: animateBackground 220s infinite;
+  z-index: -1;
+}
+
+@keyframes animateBackground {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 350px 350px;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+#root {
+  background: rgba(0, 0, 0, 0.55);
+}
