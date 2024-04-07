@@ -63,7 +63,7 @@ function Contact() {
           </div>
           <div className="contact__container grid__containers reveal-4">
             <p className="text-[1.2rem] md:text-2xl">
-              Ms. Siva Ransani
+              Ms. A. S. Shiva Ranjani
               <br />
               <span className="des__text md:text-base">I B. E. ECE</span>
             </p>
