@@ -13,7 +13,7 @@ function Maze() {
           <h3>
             <span>Maze Hunt</span>
             <br />
-            Guidelines
+            Guidelines <br /> Time: 11:00am - 11:45am
           </h3>
           <h3>The Basic rule of competition</h3>
         </header>

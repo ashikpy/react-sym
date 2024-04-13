@@ -14,6 +14,8 @@ function Puzzle() {
             <span>Puzzle Competition</span>
             <br />
             Guidelines
+            <br />
+            Time: 11:45 - 12:30
           </h3>
         </header>
         <hr />

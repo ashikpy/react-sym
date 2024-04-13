@@ -24,9 +24,9 @@ const Hero = () => {
       <p className="hero__discription leading-1 mt-1 max-w-[50ch] text-center text-sm font-medium text-slate-500 sm:text-base xl:mt-3">
         We, Students and faculty of <strong>Science and Humanities</strong>{" "}
         Department, are very grateful to invite you to{" "}
-        <strong className="text-indigo-600">AshSym!</strong>, a technical fest
-        organized by us. We are very excited to have you with us. For Further
-        details, please click the{" "}
+        <strong className="text-indigo-600">AshSym!</strong> at{" "}
+        <strong>11/04/2024.</strong> a technical fest organized by us. We are
+        very excited to have you with us. For Further details, please click the{" "}
         <u>
           <strong className=" text-slate-500 ">button</strong>
         </u>{" "}

@@ -14,6 +14,8 @@ function Speech() {
             <span>Extempore Speech</span>
             <br />
             Guidelines
+            <br />
+            Time: 11:00 - 11:45
           </h3>
         </header>
         <hr />
