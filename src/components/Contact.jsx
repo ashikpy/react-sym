@@ -72,6 +72,19 @@ function Contact() {
               <FaExternalLinkAlt className="link__svg" />
             </a>
           </div>
+          <div className="contact__container grid__containers reveal-4">
+            <p className="text-[1.2rem] md:text-2xl">
+              Email
+              <br />
+              <span className="des__text md:text-base">
+                <em>For Queries Email</em>
+              </span>
+            </p>
+            <a className="phone__link" href="email:ashsym2k24@gmail.com">
+              ashsym2k24@gmail.com
+              <FaExternalLinkAlt className="link__svg" />
+            </a>
+          </div>
         </div>
         <hr className="hr__each" />
       </div>
