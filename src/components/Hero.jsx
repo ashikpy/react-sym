@@ -36,7 +36,7 @@ const Hero = () => {
         className="hero__btn btn mt-4 sm:text-base xl:mt-7"
         onClick={handleClick}
       >
-        Get Started
+        Register
       </button>
       <div className="hr__container reveal">
         <hr className="hr__each" />
