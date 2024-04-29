@@ -28,7 +28,7 @@ function Idea() {
             <li>Abstract of the idea should not exceed more than 250 words.</li>
             <li>
               Submit the abstract of the idea in the provided Google form on or
-              before 25-04-2024.
+              before 12-05-2024.
             </li>
             <li>
               Confirmation email will be sent to the registered participants
