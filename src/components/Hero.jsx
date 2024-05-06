@@ -25,7 +25,7 @@ const Hero = () => {
         We, Students and faculty of <strong>Science and Humanities</strong>{" "}
         Department, are very grateful to invite you to{" "}
         <strong className="text-indigo-600">AshSym!</strong> at{" "}
-        <strong>18/05/2024.</strong> a technical fest organized by us. We are
+        <strong>17/05/2024.</strong> a technical fest organized by us. We are
         very excited to have you with us. For Further details, please click the{" "}
         <u>
           <strong className=" text-slate-500 ">button</strong>
