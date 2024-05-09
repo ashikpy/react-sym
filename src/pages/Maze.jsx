@@ -11,7 +11,7 @@ function Maze() {
         <header>
           <h1>ASHSYM 2k24</h1>
           <h3>
-            <span>Maze Hunt</span>
+            <span>Mind Maze</span>
             <br />
             Guidelines <br /> Time: 11:00 Am - 11:45 Am
           </h3>
@@ -21,7 +21,6 @@ function Maze() {
         <section>
           <ul className="">
             <li>
-              {" "}
               Only team entries are allowed, and team shall consist of two
               persons.
             </li>

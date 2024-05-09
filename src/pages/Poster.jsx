@@ -9,7 +9,7 @@ function Poster() {
           <h3>
             <span>Poster Making</span>
             <br />
-            Guidelines <br /> Time: 11:45 Am - 12:30 Pm
+            Guidelines <br /> Time: 10:15 Am - 11:00 Pm
           </h3>
         </header>
         <hr />
