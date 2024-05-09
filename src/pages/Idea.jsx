@@ -14,7 +14,7 @@ function Idea() {
             <span>Idea Presentation</span>
             <br />
             Guidelines <br />
-            Time: 10:15am - 11:00am
+            Time: 10:15 Am - 11:00 Am
           </h3>
         </header>
         <hr />

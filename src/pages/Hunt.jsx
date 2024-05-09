@@ -13,7 +13,7 @@ function Hunt() {
           <h3>
             <span>Treasure Hunt</span>
             <br />
-            Guidelines <br /> Time:
+            Guidelines <br /> Time: 11:45 Am - 12:30 Pm
           </h3>
         </header>
         <hr />

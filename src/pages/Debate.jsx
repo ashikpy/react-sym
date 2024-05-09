@@ -9,7 +9,7 @@ function Debate() {
           <h3>
             <span>Debate</span>
             <br />
-            Guidelines <br /> Time: 11:45am - 12:30pm
+            Guidelines <br /> Time: 11:45 Am - 12:30 Pm
           </h3>
         </header>
         <hr />

@@ -15,7 +15,7 @@ function Puzzle() {
             <br />
             Guidelines
             <br />
-            Time: 11:45 - 12:30
+            Time: 11:45 Am - 12:30 Pm
           </h3>
         </header>
         <hr />

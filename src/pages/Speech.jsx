@@ -15,7 +15,7 @@ function Speech() {
             <br />
             Guidelines
             <br />
-            Time: 11:00 - 11:45
+            Time: 11:00 Am - 11:45 Am
           </h3>
         </header>
         <hr />
